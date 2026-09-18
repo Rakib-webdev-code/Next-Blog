@@ -19,7 +19,9 @@ const Navbar = () => {
       <li>
         <Link className={pathName === '/blogs' ? 'text-blue-500' : ''} href='/blogs'>Blogs</Link>
       </li>
-     
+     <li>
+        <Link className={pathName === '/products' ? 'text-blue-500' : ''} href='/products'>Product</Link>
+      </li>
     </>
   );
 
